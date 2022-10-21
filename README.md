@@ -12,6 +12,12 @@ Sofware necesario:
 - Docker
 - Net-tools
 
-Lo demas se hace el clone del repositorio para obtener las carpets de dockerfile server y cliente.
+Lo demas se hace el clone del repositorio para obtener las carpetas de dockerfile server y cliente.
+
+## Uso
+1) Abrir sniffer, y empezar a capturar en la interfaz de red Docker0.
+2) Armar el docker servidor, `sudo docker build -t server:1.0 (RUTA Dockerfile carpeta dockerfileserver)`. Después hacer un run de la imagen docker creada, este empezará a hostear un server en el primer ip disponible de la LAN.
+3) Abrir otro terminal, y armar dockerfile cliente, `sudo docker build -t cliente:1.0 (RUTA Dockerfile carpeta dockerfile)`. Después hacer un run de la imagen cliente creada. Si este funcionó, imprime en terminal Hello world.
+4) Revisar captura de sniffer.
 
 
