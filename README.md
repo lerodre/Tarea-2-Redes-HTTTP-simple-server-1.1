@@ -8,8 +8,9 @@ El proposito de este trabajo es generar trafico HTTP para capturarlo con un snif
 -Hay que tener en cuenta que se necesita usar los repositorios http request (https://github.com/psf/requests) y http simple server (https://github.com/trungams/http-server).
 
 Sofware necesario:
-- Wireshark u otro sniffer
-- Docker
+- Wireshark u otro sniffer.
+- Docker.
+
 Sofware opcional:
 - Net-tools (facilita la busqueda de direcciones ip).
 
